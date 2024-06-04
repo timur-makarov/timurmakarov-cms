@@ -872,6 +872,13 @@ export interface ApiProfileProfile extends Schema.SingleType {
           localized: true;
         };
       }>;
+    bio: Attribute.RichText &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
