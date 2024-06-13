@@ -27,15 +27,6 @@
       "unique": false,
       "default": "Timur Makarov"
     },
-    "description": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "richtext",
-      "required": true
-    },
     "bio": {
       "pluginOptions": {
         "i18n": {
