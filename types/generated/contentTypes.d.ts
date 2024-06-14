@@ -948,6 +948,13 @@ export interface ApiProfileProfile extends Schema.SingleType {
           localized: true;
         };
       }>;
+    jobTitle: Attribute.String &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

@@ -35,6 +35,15 @@
       },
       "type": "richtext",
       "required": true
+    },
+    "jobTitle": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
