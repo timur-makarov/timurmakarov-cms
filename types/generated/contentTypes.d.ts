@@ -805,13 +805,6 @@ export interface ApiArticleArticle extends Schema.CollectionType {
     };
   };
   attributes: {
-    content: Attribute.RichText &
-      Attribute.Required &
-      Attribute.SetPluginOptions<{
-        i18n: {
-          localized: true;
-        };
-      }>;
     title: Attribute.String &
       Attribute.Required &
       Attribute.Unique &
@@ -839,6 +832,13 @@ export interface ApiArticleArticle extends Schema.CollectionType {
       Attribute.SetPluginOptions<{
         i18n: {
           localized: false;
+        };
+      }>;
+    content: Attribute.Blocks &
+      Attribute.Required &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
         };
       }>;
     createdAt: Attribute.DateTime;
