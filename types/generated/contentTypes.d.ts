@@ -831,7 +831,7 @@ export interface ApiArticleArticle extends Schema.CollectionType {
       Attribute.Required &
       Attribute.SetPluginOptions<{
         i18n: {
-          localized: false;
+          localized: true;
         };
       }>;
     content: Attribute.Blocks &
