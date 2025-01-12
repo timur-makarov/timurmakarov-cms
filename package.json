@@ -14,17 +14,18 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-cloud": "4.24.4",
-    "@strapi/plugin-i18n": "4.24.4",
-    "@strapi/plugin-users-permissions": "4.24.4",
-    "@strapi/strapi": "4.24.4",
-    "better-sqlite3": "8.6.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-router-dom": "5.3.4",
-    "styled-components": "5.3.3"
+    "@strapi/design-system": "2.0.0-beta.6",
+    "@strapi/plugin-cloud": "5.7.0",
+    "@strapi/plugin-content-manager": "4.25.12",
+    "@strapi/plugin-users-permissions": "5.7.0",
+    "@strapi/strapi": "5.7.0",
+    "better-sqlite3": "11.7.2",
+    "codemirror": "^6.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "7.1.1",
+    "styled-components": "6.1.14"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"
